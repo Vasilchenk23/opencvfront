@@ -1,0 +1,65 @@
+    @font-face {
+        font-family: NotoSansLaoLooped;
+        src: url('D:/OpenCvProject/openCv-front/open-cv-front/src/font/NotoSansLaoLooped-VariableFont_wdth,wght.ttf');
+    }
+
+
+    body{
+        background-color: black;
+    }
+
+
+    .iframe {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        height: 90vh;
+        margin-top: -90px;
+    }
+
+  
+    .App iframe {
+        border: none; 
+        max-width: 100%;
+        }
+
+
+    ::-webkit-scrollbar {
+        width: 5px; 
+        }
+    
+
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+    
+
+    ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px; 
+    }
+    
+
+    ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    }
+
+    .front{
+        font-family: NotoSansLaoLooped;
+    }
+
+    .back{
+        font-family: NotoSansLaoLooped;
+    }
+
+    .camera{
+        font-family: NotoSansLaoLooped;
+        color: rgb(255, 255, 255);
+    }
+
+    .stream{
+        font-family: NotoSansLaoLooped;
+        color: rgb(255, 255, 255);
+    }
+
+
